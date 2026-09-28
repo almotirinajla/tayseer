@@ -65,7 +65,7 @@ This weighting assumes that each row’s average completion time describes its r
 
 Longer completion times do not by themselves establish poor performance. Justice & Notary may involve more complex cases or additional required procedures, and this analysis does not adjust for those differences. National weighted averages can also conceal regional variation. These results support investigation, not a causal claim or a guaranteed estimate of time savings.
 
-## Chart design and AI assistance
+
 
 ## Chart design and AI assistance
 
