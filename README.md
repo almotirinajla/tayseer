@@ -67,5 +67,7 @@ Longer completion times do not by themselves establish poor performance. Justice
 
 ## Chart design and AI assistance
 
-A line chart was chosen to show monthly variation and whether the difference between the two selected categories persists over time. A sorted horizontal bar chart makes all nine categories easy to compare while allowing space for their names; teal consistently highlights Justice & Notary, and both charts use zero-based axes. AI assisted with pandas and Plotly code, wording, and layout suggestions. I ran the analysis in Colab, reviewed the displayed data checks and summary tables, and inspected exported chart images while correcting the peak annotation placement.
+## Chart design and AI assistance
+
+A line chart was chosen to show monthly variation and whether the difference between the two selected categories persists over time. A sorted horizontal bar chart makes all nine categories easy to compare while allowing space for their names; teal consistently highlights Justice & Notary, and both charts use zero-based axes. AI assisted with developing and troubleshooting the pandas and Plotly code, refining chart layouts, and suggesting wording. I ran the analysis in Colab, reviewed the data checks, summary tables, and chart images, and take responsibility for the final interpretations and claims, which are supported by the dataset and calculated outputs.
 
