@@ -69,31 +69,3 @@ Longer completion times do not by themselves establish poor performance. Justice
 
 A line chart was chosen to show monthly variation and whether the difference between the two selected categories persists over time. A sorted horizontal bar chart makes all nine categories easy to compare while allowing space for their names; teal consistently highlights Justice & Notary, and both charts use zero-based axes. AI assisted with pandas and Plotly code, wording, and layout suggestions. I ran the analysis in Colab, reviewed the displayed data checks and summary tables, and inspected exported chart images while correcting the peak annotation placement.
 
-## Project files
-
-| File | Purpose |
-|---|---|
-| `README.md` | Project story, findings, method, and run instructions |
-| `tayseer_services.csv` | Original supplied data |
-| `Tayseer_Capstone_Najla.ipynb` | Analysis and chart-generation notebook |
-| `charts/monthly_completion.png` | Static monthly chart |
-| `charts/category_comparison.png` | Static category comparison |
-| `charts/monthly_completion_interactive.html` | Interactive monthly chart |
-| `charts/category_comparison_interactive.html` | Interactive category comparison |
-
-## Run in Google Colab
-
-1. Download `Tayseer_Capstone_Najla.ipynb` and `tayseer_services.csv` from this repository.
-2. Open [Google Colab](https://colab.research.google.com/) and upload the notebook.
-3. Run this dependency-installation cell before the analysis if the packages are unavailable:
-
-   ```python
-   %pip install pandas matplotlib plotly
-   ```
-
-4. Run the notebook cells in order. When the upload cell prompts you, select `tayseer_services.csv`.
-5. Review the data checks and summary tables, then run the chart cells. The HTML exports are written to the `charts` folder.
-6. Run the final annotation adjustment before exporting the monthly chart. Use each interactive chart’s camera icon to download its PNG, and save the images using the filenames listed above.
-
-The notebook uses pandas for analysis, Plotly for interactive charts, and matplotlib for the static-chart cells.
-
